@@ -22,9 +22,9 @@ BMSTU Web development course (2020)
 
 # Use-case диаграмма системы
 
-![Usecase](..blob/main/docs/usecase.png?raw=true)
+![Usecase](../blob/main/docs/usecase.png?raw=true)
 
 
 # ER-диаграмма сущностей системы
 
-![ER](..blob/main/docs/er.png?raw=true)
+![ER](../blob/main/docs/er.png?raw=true)
