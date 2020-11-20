@@ -27,4 +27,4 @@ BMSTU Web development course (2020)
 
 # ER-диаграмма сущностей системы
 
-![ER](../blob/main/docs/er.png)
+![ER](../blob/main/docs/er.png?raw=true)
