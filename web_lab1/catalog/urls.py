@@ -9,6 +9,4 @@ router.register('vacancy', views.VacancyAPIView)
 router.register('city', views.CityAPIView)
 router.register('application', views.ApplicationAPIView)
 
-urlpatterns = [
-    path('', include(router.urls)),
-]
+urlpatterns = router.urls
