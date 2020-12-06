@@ -88,16 +88,3 @@ class Application(models.Model):
 
     def get_absolute_url(self):
         return reverse('application-detail', args=[str(self.id)])
-
-
-class Resume(models.Model):
-    user = models.OneToOneField(User, on_delete=models.SET_NULL, null=True, related_name = 'coverletter')
-    birth_date = models.DateTimeField()
-    education = models.CharField(max_length=50)
-    description = models.TextField(max_length=1000)
-
-    def __str__(self):
-        return self.user.last_name
-
-    def get_absolute_url(self):
-        return reverse('resume-detail', args=[str(self.id)])

@@ -1,7 +1,4 @@
 from rest_framework import serializers
-from rest_framework.generics import GenericAPIView
-from rest_framework.mixins import UpdateModelMixin
-from django.contrib.auth.models import User
 
 from .models import City, Industry, Company, JobVacancy, Application
 
